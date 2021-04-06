@@ -1,0 +1,78 @@
+﻿@page "/Contacts/People/"
+
+@using PeopleLibrary;
+@using PeopleLibrary.Models;
+@using BlazorUI.Models;
+
+@inject IPeople _db;
+
+
+<h1>People List</h1>
+
+<h4>Insert new person:</h4>
+<EditForm Model="@newPerson" OnValidSubmit="@InsertPerson">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label for="firstName">First Name</label>
+    <InputText id="firstName" @bind-Value="newPerson.FirstName" />
+    <label for="lastName">Last Name</label>
+    <InputText id="lastName" @bind-Value="newPerson.LastName" />
+    <label for="phoneNumber">Phone Number</label>
+    <InputText id="phoneNumber" @bind-Value="newPerson.PhoneNumber" />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+<h4>Current People</h4>
+
+@if(people is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in people)
+            {
+                <tr>
+                    <th>@person.FirstName</th>
+                    <th>@person.LastName</th>
+                    <th>@person.PhoneNumber</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<PersonModel> people;
+    private DisplayPersonModel newPerson = new DisplayPersonModel();
+    protected override async Task OnInitializedAsync()
+    {
+        people = await _db.GetPeople();
+    }
+
+    private async Task InsertPerson()
+    {
+        PersonModel p = new PersonModel
+        {
+            FirstName = newPerson.FirstName,
+            LastName = newPerson.LastName,
+            PhoneNumber = newPerson.PhoneNumber
+        };
+        await _db.InsertPerson(p);
+
+        people.Add(p);
+
+        newPerson = new DisplayPersonModel();
+    }
+}

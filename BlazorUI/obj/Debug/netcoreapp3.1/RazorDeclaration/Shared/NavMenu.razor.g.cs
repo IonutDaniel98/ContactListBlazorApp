@@ -83,7 +83,7 @@ using BlazorUI.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\Shared\NavMenu.razor"
+#line 33 "C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

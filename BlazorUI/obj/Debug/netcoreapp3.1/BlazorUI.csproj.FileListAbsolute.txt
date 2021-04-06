@@ -49,3 +49,16 @@ C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp
 C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp3.1\BlazorUI.pdb
 C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp3.1\BlazorUI.genruntimeconfig.cache
 C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp3.1\BlazorUI.csproj.CopyComplete
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\PeopleLibrary.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\bin\Debug\netcoreapp3.1\PeopleLibrary.pdb
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contacts\People.razor.g.cs
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\BlazorUI\obj\Debug\netcoreapp3.1\Razor\Pages\Contacts\People.razor.g.cs

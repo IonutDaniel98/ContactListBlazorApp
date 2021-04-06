@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-  
+
   <ItemGroup>
-	<ProjectReference Include="C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\" />
+    <ProjectReference Include="..\PeopleLibrary\PeopleLibrary.csproj" />
   </ItemGroup>
 
 </Project>
