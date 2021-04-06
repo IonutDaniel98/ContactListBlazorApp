@@ -1,0 +1,9 @@
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.deps.json
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\bin\Debug\netstandard2.0\PeopleLibrary.pdb
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.AssemblyInfoInputs.cache
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.AssemblyInfo.cs
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.dll
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.pdb
+C:\Users\ibeje\Desktop\GitHub\ContactListBlazorApp\PeopleLibrary\obj\Debug\netstandard2.0\PeopleLibrary.csprojAssemblyReference.cache

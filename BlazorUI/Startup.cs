@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PeopleLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace BlazorUI
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            services.AddTransient<IPeople, People>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
